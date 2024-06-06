@@ -1,0 +1,83 @@
+<deployment-project plugin="plugin.apptool" plugin-version="1.0">
+  <configuration build-checksum="3950063332" file="C:\Users\Murat DELEN\Documents\MATLAB\imageProcessAplication.prj" location="C:\Users\Murat DELEN\Documents\MATLAB" name="imageProcessAplication" target="target.mlapps" target-name="Package App">
+    <param.appname>imageProcessAplication</param.appname>
+    <param.authnamewatermark>Murat DELEN</param.authnamewatermark>
+    <param.email />
+    <param.company />
+    <param.icon />
+    <param.icons />
+    <param.summary>Resim üzerine etiketler yaparak onları tespit etmek</param.summary>
+    <param.description>Soru ve cevaplar tanımlayarak resim üzerinde belirlenen koordinatlardaki görüntünün olması durumunu tespit etmektedir.</param.description>
+    <param.screenshot>C:\Users\Murat DELEN\AppData\Local\Temp\tp649f1f42_79d8_4f15_a38c_64080deb80cb.png</param.screenshot>
+    <param.version>1.0</param.version>
+    <param.products.name />
+    <param.products.id />
+    <param.products.version />
+    <param.platforms />
+    <param.output>${PROJECT_ROOT}</param.output>
+    <param.guid>82d81734-c621-4d60-bb6c-92de185dec7a</param.guid>
+    <unset>
+      <param.email />
+      <param.company />
+      <param.icon />
+      <param.icons />
+      <param.version />
+      <param.products.name />
+      <param.products.id />
+      <param.products.version />
+      <param.platforms />
+      <param.output />
+    </unset>
+    <fileset.main>
+      <file>${PROJECT_ROOT}\MD.mlapp</file>
+    </fileset.main>
+    <fileset.depfun>
+      <file>${PROJECT_ROOT}\createExcelColumnName.m</file>
+      <file>${PROJECT_ROOT}\readPoints.m</file>
+    </fileset.depfun>
+    <fileset.resources />
+    <fileset.package />
+    <build-deliverables>
+      <file location="C:\Users\Murat DELEN\Documents" name="MATLAB" optional="false">C:\Users\Murat DELEN\Documents\MATLAB</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>C:\Program Files\MATLAB\R2023a</root>
+      <toolboxes>
+        <toolbox name="matlabcoder" />
+        <toolbox name="fixedpoint" />
+        <toolbox name="neuralnetwork" />
+      </toolboxes>
+      <toolbox>
+        <matlabcoder>
+          <enabled>true</enabled>
+        </matlabcoder>
+      </toolbox>
+      <toolbox>
+        <fixedpoint>
+          <enabled>true</enabled>
+        </fixedpoint>
+      </toolbox>
+      <toolbox>
+        <neuralnetwork>
+          <enabled>true</enabled>
+        </neuralnetwork>
+      </toolbox>
+    </matlab>
+    <platform>
+      <unix>false</unix>
+      <mac>false</mac>
+      <windows>true</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>10.0</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>win64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>

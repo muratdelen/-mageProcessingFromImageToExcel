@@ -1,4 +1,4 @@
-# -mageProcessingFromImageToExcel
+# ImageProcessingFromImageToExcel
 You can read options of question from image to excel
 
 you can get survey answer by this program.
